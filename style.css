@@ -1,0 +1,43 @@
+#app {
+    width: 826px;
+    height: 936px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 15% 20% 16.25% 16.25% 16.25% 16.25%;
+    grid-template-areas:
+    "fish-flag fish-flag fish-flag vase-short"
+    "map map map vase-short"
+    "vase-tall bamboo bamboo bamboo"
+    "vase-tall bamboo bamboo bamboo"
+    "vase-tall bamboo bamboo bamboo"
+    "vase-tall quadropus quadropus quadropus";
+  }
+  
+  .box {
+    width: 100%;
+    height: 100%;
+  }
+   
+  #fish-flag {
+   grid-area: fish-flag;
+  }
+  
+  #vase-short {
+    grid-area: vase-short;
+  }
+  
+  #map {
+    grid-area: map;
+  }
+  
+  #vase-tall {
+    grid-area: vase-tall;
+  }
+  
+  #bamboo {
+    grid-area: bamboo;
+  }
+  
+  #quadropus {
+    grid-area: quadropus;
+  }
